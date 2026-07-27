@@ -1,0 +1,8 @@
+The two-pointer technique is an algorithmic optimization strategy that uses two index variables 
+(pointers) to traverse a linear data structure—like Python lists or strings—simultaneously. 
+This pattern is highly efficient because it reduces the time 
+complexity of nested-loop problems from O(n²) down to O(n) by avoiding redundant iterations
+1. Opposite-Direction Pointers (Converging)Pointers start at opposite ends of the structure (one at index 0, one at len(data) - 1)
+ and move inward toward each other until they meet.Best used for: Sorted lists or palindrome checks.
+ 2. Same-Direction Pointers (Fast & Slow)Both pointers start at the same end of the structure but move forward at different speeds 
+ or under different conditions.Best used for: Modifying structures in-place, removing duplicates, or detecting cycles in linked lists.
