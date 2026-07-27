@@ -1,3 +1,4 @@
+#insertion and deletion using maunal way in linear data structure array
 def manual_insert(arr, element, target_index):
     # Append a placeholder to expand the size simulator
     arr.append(None) 
