@@ -1,0 +1,6 @@
+Queue : linear data structure that follows Fifo principle First in First Out
+Key Operations :
+1.Enqueue : add a new item to the rear
+2.Dequeue : remove an item from the head or front.
+3.Peek : look at the front items without removing it.
+4.IsEmpty : Check if queue has any items.
