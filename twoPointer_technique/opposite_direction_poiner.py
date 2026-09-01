@@ -13,5 +13,5 @@ def two_sum_sorted(nums, target):
             right -= 1 # Need a smaller sum, move right pointer backward
             
     return [] # No pair found
-numbers = [1,3,5,6,8,11]
+numbers = [1,3,5,6,8,11,12]
 print(two_sum_sorted(numbers,4))
